@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>    <h1>Switch in javascript</h1>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+    
+    <script>
+        function myFunction(){
+        let a = 10;
+
+switch (a) {
+
+    case 1:
+        a = 'one';
+        break;
+    case 2:
+        a = 'two';
+        break;
+    default:
+        a = 'not found';
+        break;
+}
+document.getElementById("demo").innerHTML="The a is : " + a;
+}
+
+    </script>
+</body>
+</html
