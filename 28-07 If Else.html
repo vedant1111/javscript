@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+
+<p>Enter your age: <input id="first"></p>
+<button onclick="add()">Cilck</button>
+
+<script>
+    function add()
+    {
+        var age;
+        age = parseInt(document.getElementById("first").value);
+        if(age>=18){
+            document.write("Bravo! You performed a goal.")
+        }
+        else{
+            document.write("hush! You failed to perform goal.")
+        }
+    }
+    </script>
+
+</body>
+</html>
