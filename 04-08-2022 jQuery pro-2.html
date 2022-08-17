@@ -1,0 +1,47 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+<script>  
+$(document).ready(function(){  
+    $("#hide").click(function(){  
+        $("p").hide();
+    });
+    $("#show").click(function(){  
+        $("p").show();
+    });
+    $("p").css("color" , "yellow");
+    $("h2").css("background-color" , "blue").css("color" , "green").css("textAlign", "center");
+});
+</script>
+</head> 
+<body> 
+ 
+<h2>This is the discription about my idol Lionel Messi: </h2><br/>  
+<p>
+He won 7 Balon d'Ors in his life.<br/>  
+He is the G.O.A.T.in football.<br/>  
+He is just magic on the pitch whenever he plays.<br/>  
+He had made many records which might be never broken.<br/>  
+I just love Lionel Messi die heartedly. <br/>  
+</p>  
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+<style>
+    body{
+    
+        background-image: url(https://w0.peakpx.com/wallpaper/79/110/HD-wallpaper-lionel-messi-fc-barcelona-argentine-footballer-la-liga-spain-catalonia-football-burgundy-stone-background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    p{
+        font-size: large;
+    }
+    p{
+    
+        color: blue;
+    }
+
+    </style>
+</body>  
+</html>

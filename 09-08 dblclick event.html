@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#p1").click(function(){
+    $(this).hide();
+  });
+  $("#p2").click(function(){
+    $(this).hide();
+  });
+  $("#p3").click(function(){
+    $(this).hide();
+  });
+});
+</script>
+</head>
+<style>
+    #p1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #p1{
+        background-color: red;
+    }
+    #p2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #p2{
+        background-color:gray ;
+    }
+    #p3{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #p3{
+        background-color: aquamarine;
+    }
+</style>
+<body style="background-image: url(https://i.ytimg.com/vi/3GU0ocOzAOs/maxresdefault.jpg);">
+<span id="p1">If you click on me, I will become John Cena.</span>
+<br><br>
+<span id="p2">You can't see me!</span>
+<br><br>
+<span id="p3">You can't find me!</span>
+
+</body>
+</html>
